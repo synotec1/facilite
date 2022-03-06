@@ -1,3 +1,9 @@
+function ec(){
+	st = document.f.e.value;
+	s = eval(st);
+	document.getElementById("h3").innerHTML = s;
+	
+}
 
 function cal(){
 	p = document.f.p.value;
